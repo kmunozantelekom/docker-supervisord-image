@@ -1,4 +1,4 @@
-#podman build -t php_8_3 --build-arg http_proxy=http://10.82.26.50:8080 --build-arg https_proxy=http://10.82.26.50:8080 .
+
 FROM php:8.3.36-fpm-alpine
 # FROM 656940095238.dkr.ecr.eu-central-1.amazonaws.com/php:8-fpm-alpine
 # ENV LD_PRELOAD /usr/lib/preloadable_libiconv.so php Ya no hace falta
